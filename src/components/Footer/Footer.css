@@ -1,0 +1,41 @@
+footer{
+    background-color: aliceblue;
+    padding: 1rem 0 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+}
+
+footer a{
+    color: #10102b;
+}
+
+.footer_logo{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 0 auto 1rem;
+    color: aliceblue;
+}
+ 
+.footer_link{
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer_link:hover{
+    color: var(--dark-orange);
+ }
+.footer_copy{
+    margin-bottom: 2rem;
+     color: var(--dark-orange);
+     font-size: 12px;
+}
