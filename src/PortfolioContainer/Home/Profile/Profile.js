@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import {TypeAnimation} from "react-type-animation";
 import "./Profile.css";
 
 export default function Profile() {
@@ -37,9 +37,10 @@ export default function Profile() {
               {" "}
               <h1>
                 {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
+                <TypeAnimation
+                  loop
+                  speed={50}
+                  sequence={[
                     "Ethusiastic Developer",
                     1000,
                     "Full Stack Developer",
@@ -49,6 +50,8 @@ export default function Profile() {
                     "Problem Solver",
                     1000,
                   ]}
+                  cursor={true}
+                  repeat={Infinity}
                 />
               </h1>
               <span className="profile-role-tagline">
