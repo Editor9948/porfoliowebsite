@@ -1,6 +1,7 @@
 import Image1 from "../../assets/testimonial4.jpg";
 import Image2 from "../../assets/testimonial2.jpg";
 import Image3 from "../../assets/testimonial1.jpg";
+import Image4 from "../../assets/testimonial3.jpg";
 
 export const Data = [
     {
@@ -23,6 +24,14 @@ export const Data = [
         image: Image3,
         title: "Sara Cill",
         description:"OLADAPO AYOMIDE has been an absolute pleasure to work with. Their web development skills are exceptional. You've exceeded our expectations.",
+         
+    },
+
+    {
+        id: 4, 
+        image: Image4,
+        title: "Daniella Florio",
+        description:"Oladapo, I was impressed by the attention to detail and the timely completion of the project..",
          
     },
 ];
