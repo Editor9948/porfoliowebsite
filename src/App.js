@@ -3,6 +3,7 @@ import Home from "./PortfolioContainer/Home/Home";
 import Navbar from "./components/Nav/Navbar";
 import About from "./components/About Me/About";
 import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
 import Service from "./components/Services/Service";
 import Qualification from "./components/Qualification/Qualification";
 import Testimonial from "./components/Testimonial/Testimonial";
@@ -16,6 +17,7 @@ function App() {
       <Navbar/>
       <About/>
       <Experience/>
+      <Projects/>
       <Service/>
       <Qualification/>
       <Testimonial/>
